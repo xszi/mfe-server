@@ -18,6 +18,8 @@ cd d:\mysql8\bin
 mysql -u root -p
 ```
 
+# 使用 MySQL 官方工具 Workbench
+
 ### 关于跨域
 
 前端反向代理（proxy）
@@ -33,7 +35,7 @@ proxy: {
 ```js
 app.use(
   cors({
-    origin: "http://localhost:7000",
+    origin: "http://localhost:9000",
     credentials: true,
   })
 );

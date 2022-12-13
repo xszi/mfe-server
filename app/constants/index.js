@@ -32,7 +32,7 @@ exports.messageType = {
   system: {
     welcome: {
       type: 0,
-      content: '欢迎来到Tomato Work, 这将为您提供一站式服务！'
+      content: '欢迎来到 行书子 DataBase, 这将为您提供一站式服务！'
     }
   }
 }

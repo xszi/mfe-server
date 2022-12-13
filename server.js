@@ -26,7 +26,7 @@ app.use(session({
 }));
 
 app.use('/api', require('./app/router'))
-const port = '7000'
+const port = '3000'
 app.listen(port, function () {
     console.log(`server start at port ${port}`);
 });
